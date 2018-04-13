@@ -1,6 +1,9 @@
 #include "stdafx.h"
 #include "Header.h"
 
-void getStringFromUser() { // Will get string inputs from user
-
+string getStringFromUser(string prompt) { // Will get string inputs from user
+	string text;
+	cout << prompt;
+	cin >> text;
+	return text;
 }

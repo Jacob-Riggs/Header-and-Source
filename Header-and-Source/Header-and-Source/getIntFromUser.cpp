@@ -1,6 +1,9 @@
 #include "stdafx.h"
 #include "Header.h"
 
-void getIntFromUser() { // Will be used to get integers from user
-
+int getIntFromUser(string prompt) { // Will be used to get integers from user
+	int num;
+	cout << prompt;
+	cin >> num;
+	return num;
 }
